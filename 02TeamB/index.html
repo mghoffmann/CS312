@@ -2,9 +2,6 @@
    <head>
       <title>2D canvas template for CS312</title>
 
-      <!-- Import external js files-->
-      <script type="text/javascript" src="DrawAmericanFlag.js"></script>
-
       <!-- Add a border to the canvas -->
       <style>
         body {
@@ -27,11 +24,11 @@
     <p>Student: -Full Name- </p>
 
     <img id="monaco" src="monaco.gif" alt="" style="width:225px;height:150px;">
-    <canvas id='canvas2' width='225' height='150'>Canvas not supported</canvas>
+    <canvas id='canvas1' width='225' height='150'>Canvas not supported</canvas>
     <br />
 
     <img id="green" src="Greenland.png" alt="" style="width:225px;height:150px;">
-    <canvas id='canvas1' width='225' height='150'>Canvas not supported</canvas>
+    <canvas id='canvas2' width='225' height='150'>Canvas not supported</canvas>
     <br />
 
     <img id="norway" src="norway.png" alt="" style="width:225px;height:150px;">
@@ -62,7 +59,9 @@
       var can4 = document.getElementById("canvas4");
       var ctx4 = can4.getContext("2d");
 
-      drawAmericanFlag(ctx4, 0, 0, can4.height);
+      // TODO add your drawing code here (You can create JS objects if you want)
+
+
     </script>
 
 
